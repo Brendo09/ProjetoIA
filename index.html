@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="container">
+    <h1>Treinamento de Imagens</h1>
+    <h2>IF Sul De Minas campus: Machado MG</h2>
+  </header>
+  <section class="control">
+    <button class="iniciar" type="button" onclick="init()" style="cursor: pointer;">START</button>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
+  </section>
+
+  <footer class="footer">
+    Todos direitos reservados - Departamento de Computação - IFSULDEMINAS - Campus Machado - Aluno : Brendo
+      Santiago de Oliveira
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

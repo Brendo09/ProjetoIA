@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(199, 198, 198);
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
+}
+
+.control {
+  text-align: center;
+  flex: 1 0;
+}
+
+.iniciar {
+  margin: 50px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.iniciar:hover{
+  background-color: bisque;
+}
+
+.footer {
+  font-size: 1em;
+  font-weight: bold;
+  flex-shrink: 0;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  text-align: center;
+}
